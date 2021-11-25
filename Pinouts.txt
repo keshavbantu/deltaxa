@@ -1,0 +1,33 @@
+pins on the hand made bord:
+> Pin 19 > Mosfet 
+> Pin 18 > Led_strip
+> Pin 02 > RGB_led
+--------------------------
+
+Pins on the raspberry pi 
+
+  Pin name                  GPIO
+
+> TxRx          >           14, 15
+> pixel_pin     >           18
+> Lock          >           25
+> FP_cap        >           24
+> Enroll_pin    >           27
+> SideStand     >           22
+> Batterybutton >           10
+> Vehicle_Moving>           23
+
+-----------------------------
+
+Special Notes: 
+
+>> Fingerprint sensor:
+ > Here there are 4 Color modes for the LEDs i.e 0,1,2,3,4.
+ >Led_mode 1  is for breathing effect 
+ >led_mode 4 is the light off
+ >led_mode 3 is for the solid color
+  
+  > Color code for the same is, 1= Red
+                                2= Blue 
+                                3= purple.
+
